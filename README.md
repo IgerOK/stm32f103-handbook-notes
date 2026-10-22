@@ -9,7 +9,8 @@
 - `STM32F103VGT6_VREF_AI.md` — основной файл: правила, пины, формулы, код SPL и HAL, чек-листы.
 - `examples/adc_spl.c` — SPL: init + calibration, scan+DMA, self-test VREF+.
 - `examples/dac_hal.c` — HAL/CubeMX: генерация синуса через DAC + DMA2 + TIM6.
-- `docs/STM32F103VGT6_Datasheet.pdf` — оригинал даташита ST (DocID16554 Rev 4, ~1.9 МБ).
+- `docs/datasheet.pdf` — оригинал даташита ST (DocID16554 Rev 4, ~1.9 МБ).
+- `docs/datasheet.md` — тот же даташит в текстовом виде (~220 КБ, TOC, для search/read AI-агентом).
 - `LICENSE` — MIT.
 
 ## Ключевые факты (коротко)

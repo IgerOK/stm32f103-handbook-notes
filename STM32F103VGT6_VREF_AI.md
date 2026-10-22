@@ -1237,13 +1237,14 @@ A: SPL (§5, §6) — если нужен полный контроль реги
 | `STM32F103VGT6_VREF_AI.md` | **ЭТОТ ФАЙЛ** — полный контекст для AI-агента (самодостаточный) |
 | `examples/adc_spl.c` | SPL: init + calibration, scan+DMA, self-test VREF+ |
 | `examples/dac_hal.c` | HAL/CubeMX: генерация синуса через DAC + DMA2 + TIM6 |
-| `docs/STM32F103VGT6_Datasheet.pdf` | оригинал даташита ST (DocID16554 Rev 4, ~1.9 МБ) |
+| `docs/datasheet.pdf` | оригинал даташита ST (DocID16554 Rev 4, ~1.9 МБ) |
+| `docs/datasheet.md` | тот же даташит в текстовом виде (~220 КБ, TOC, для `search`/`read` AI-агентом) |
 | `README.md` | описание репо |
 | `LICENSE` | MIT |
 
 > Рабочие файлы из каталога проекта (`STM32F103VGT6.pdf`, `datasheet.md`,
 > `extracted.txt`, `See!.txt`, `Шпаргалка*.txt`) НЕ попадают в репо — их данные
-> полностью погашены в этом файле и в `docs/STM32F103VGT6_Datasheet.pdf`.
+> полностью погашены в этом файле и в `docs/datasheet.pdf`.
 > Для переноса на другой ПК достаточно этого репозитория.
 
 Сгенерировано: 2026-10-22. Самодостаточный контекст для AI-агента.*

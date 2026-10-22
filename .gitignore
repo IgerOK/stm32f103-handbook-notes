@@ -1,0 +1,45 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+.vs/
+.vscode/
+.idea/
+
+# Build artifacts
+*.o
+*.obj
+*.d
+*.elf
+*.hex
+*.bin
+*.lst
+*.map
+*.i
+*.su
+*.ld
+*.s
+
+# Keil / IAR / STM32CubeIDE
+*.uvprojx
+*.uvoptx
+*.uvoptx
+*.uvmpw
+*.ewd
+*.ewp
+*.eww
+*.ewt
+*.cproject
+*.project
+*.settings/
+build/
+Debug/
+Release/
+Objects/
+Listings/
+
+# Python (in case)
+__pycache__/
+*.pyc
